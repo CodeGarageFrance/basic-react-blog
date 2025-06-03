@@ -8,6 +8,8 @@ html, body {
     rgba(200, 79, 192, 1.000) 50.000%, 
     rgba(255, 205, 112, 1.000) 100.000%
   );
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 * {
