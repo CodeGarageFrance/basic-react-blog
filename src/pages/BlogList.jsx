@@ -1,5 +1,5 @@
-import { BlogThumbnail } from "./BlogThumbnail";
-import { CategoryFilter } from "./CategoryFilter";
+import { Thumbnail } from "@/components/Thumbnail";
+import { CategoryFilter } from "@/components/CategoryFilter";
 
 export function BlogList({ blogs, categories, selectedCategory, onCategoryChange, onBlogClick }) {
     return <>
@@ -13,7 +13,7 @@ export function BlogList({ blogs, categories, selectedCategory, onCategoryChange
         />
         <div style={style.blogList}>
             {blogs.map(blog => (
-                <BlogThumbnail blog={blog} key={blog.id} onClick={()=>onBlogClick(blog)} />
+                <Thumbnail blog={blog} key={blog.id} onClick={()=>onBlogClick(blog)} />
             ))}
         </div>
     </>

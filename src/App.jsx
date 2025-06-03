@@ -1,6 +1,5 @@
-import { BlogList } from './components/BlogList'
-import { BlogDetails } from './components/BlogDetails';
-import { CategoryFilter } from './components/CategoryFilter';
+import { BlogList } from './pages/BlogList'
+import { BlogDetails } from './pages/BlogDetails';
 import { Navbar } from './components/Navbar'
 import { ThemeContext } from './components/ThemeContext';
 import { useState } from 'react';

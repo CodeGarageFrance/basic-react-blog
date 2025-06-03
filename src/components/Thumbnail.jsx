@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { ThemeContext } from "./ThemeContext";
 
-export function BlogThumbnail({ blog, onClick }) {
+export function Thumbnail({ blog, onClick }) {
     const { theme } = useContext(ThemeContext);
     return (
         <div style={{...style.thumbnail.base, ...style.thumbnail[theme]}}>
